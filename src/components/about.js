@@ -20,7 +20,13 @@ const About = () => (
       <br></br>
       <div className="container">
         <div className="row">
+
           <div className="col">
+
+            <p><img src={Logo} alt="" class="img-fluid rounded-circle" /></p>
+
+
+
 
             <h3>About Me</h3>
             <ul>
@@ -30,16 +36,8 @@ const About = () => (
               <li>
                 Completed the Full Stack Coding BooCamp at Northwestern University.
           </li>
-              <li> Specialties :</li>
-              <ul>
-                <ul>
-                  <li>React.js</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
-                  <li>MYSQL</li>
-                </ul>
-              </ul>
+              <li> Specialties :  React.js, HTML, CSS, Javascript, MYSQL</li>
+
               <li>Looking for the right team to grow as a web developer.
           </li>
             </ul>
@@ -51,11 +49,7 @@ const About = () => (
         </p>
           </div>
           <br></br>
-          <div className="col">
 
-            <p><img src={Logo} alt="" class="img-fluid rounded-circle" /></p>
-
-          </div>
         </div>
       </div>
     </div>
