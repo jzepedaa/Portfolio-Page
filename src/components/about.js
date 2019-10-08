@@ -18,18 +18,18 @@ const About = () => (
           textAlign: "center"
         }}>Welcome to my Profile Page</h1>
       <br></br>
-      <div className="container">
+      <div className="container text-center">
         <div className="row">
 
           <div className="col">
 
-            <p><img src={Logo} alt="" class="img-fluid rounded-circle" /></p>
+            <p><img src={Logo} alt="" className="img-fluid rounded-circle justify-content-centernpm " /></p>
 
 
 
 
             <h3>About Me</h3>
-            <ul>
+            <ul className="text-center">
               <li>
                 Bachelors Degree in Computer Science.
           </li>
