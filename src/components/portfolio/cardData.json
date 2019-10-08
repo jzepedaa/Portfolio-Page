@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "title": "Wanderlust",
+    "skills": "Heroku, MongooseDB, React.js, Redux, Semantic UI, AM Charts, Axios, Materialize CSS, Mongoose(ORM), Node.js, Express.js, Passport.js, Bcrypt.js",
+    "summary": "A yelp app for study abroad programs",
+    "role": "Created Review list for user input. Pair-coded front-end component ReviewListItem, routed user input to database to be stored and displayed on the map. Also coded the navbar component and made it responsive for any device.  ",
+    "githubLink": "https://github.com/BlackMG27/wanderlust.git",
+    "deployedLink": "https://satisfying-wanderlust.herokuapp.com/"
+  },
+  {
+    "id": 1,
+    "title": "Hoop Data",
+    "skills": "React.js, Node.js, Firebase, javascript, Bootstrap, fantasydata-api",
+    "summary": "Convenient way for user to search basketball players and teams and get their fanatsy points.",
+    "role": "Coded the api calls to retrieve player and team data. Routed submit button to make sure data printed correctly on the table listed. ",
+    "githubLink": "https://github.com/jzepedaa/HoopData2.git",
+    "deployedLink": "https://jzepedaa.github.io/HoopData2/"
+  },
+  {
+    "id": 2,
+    "title": "Soccer Trivia ",
+    "skills": "Javascript, HTML, CSS",
+    "summary": "Built a Trivia multiple choice game that lets the user see how much they know about soccer. The user has 30 seconds to answer each question and at the end has the option to play again",
+    "role": "Independent",
+    "githubLink": "https://github.com/sarahtam718/spatify",
+    "deployedLink": "https://jzepedaa.github.io/TriviaGame/"
+  },
+  {
+    "id": 3,
+    "title": "Word Guess Game",
+    "skills": "Javascript, HTML, CSS",
+    "summary": "Soccer Hangman Game",
+    "role": "Independent",
+    "githubLink": "https://github.com/jzepedaa/Word-Guess-Game.git",
+    "deployedLink": "https://jzepedaa.github.io/Word-Guess-Game/"
+  }
+]

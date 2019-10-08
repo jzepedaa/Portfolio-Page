@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Navbar from "./components/navbar.js"
+import About from "./components/about"
+import JumbotronPortfolio from "./components/portfolio/jumbotronPortfolio.js";
+import Footer from "./components/footer.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+document.body.style = "background-color: #153243;"
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <div className="container">
+          <About />
+          <JumbotronPortfolio />
+          <div style={{ marginTop: 40 }}>
+            <Footer />
+          </div>
+
+        </div>
+      </div>
+    )
+  }
+
 }
-
 export default App;
