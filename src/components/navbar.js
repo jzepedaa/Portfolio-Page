@@ -50,7 +50,7 @@ const Navbar = () => (
       </a>
     </div>
     <span className="navbar-text" style={{ color: "#153243" }}>
-      Full Stack Web Developer
+      Mobile:(773)-414-5210 /  Email: nnk168@gmail.com
     </span>
   </nav>
 );
