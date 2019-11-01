@@ -7,7 +7,7 @@ const Footer = () => (
       style={{ height: 40, color: "white" }}
     >
       <div className="footer-copyright text-center py-2">
-        Copyright Jaime Zepeda 2019
+        Copyright J.Zepeda LLC 2019
       </div>
     </footer>
   </div>
