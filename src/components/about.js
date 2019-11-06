@@ -34,7 +34,7 @@ const About = () => (
                 Bachelors Degree in Computer Science.
           </li>
               <li>
-                Completed the Full Stack Coding BooCamp at Northwestern University.
+                Completed the Full Stack Coding BootCamp at Northwestern University.
           </li>
               <li> Specialties :  React.js, HTML, CSS, Javascript, MYSQL</li>
 
@@ -44,7 +44,7 @@ const About = () => (
             <p className="lead" style={{
 
             }}>
-              My inner child makes work fun. My inner idealist always finds solutions & builds bridges. These two sides of me collide and add value to my employer!
+              My inner child makes work fun. My inner idealist always finds solutions & builds bridges. These two sides of me collide and add value to any employer!
 
         </p>
           </div>
